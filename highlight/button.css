@@ -1,0 +1,46 @@
+form{
+   
+    background-color:rgb(149, 149, 151);
+    border: 2px solid black;
+    border-radius: 20px 30px 20px 30px;
+    align-items: center;
+    width:400px;
+    height: 500px;
+    text-align: center;
+    padding-left: 2%;
+  
+}
+label{
+color: black;
+font-weight: 500;
+font-size: larger;
+}
+#submit{
+
+    background-color: green;
+    color: rgb(2, 13, 22);
+    font-size: larger;
+    font-weight: 300;
+    font-style: italic;
+
+}
+#submit:hover{
+    color: azure;
+    background-color: crimson;
+}
+#reset{
+    
+    color: aliceblue;
+    background-color: green;
+    font-size: larger;
+    font-weight: 300;
+    font-style: italic;
+}
+#reset:hover{
+    color: rgb(18, 34, 34);
+    background-color: rgb(20, 220, 153);
+    
+}
+.date{
+    padding-right: 50px;
+}
