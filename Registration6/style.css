@@ -1,0 +1,30 @@
+.box {
+    display:block;
+    padding: 1em;
+    margin: 2em;
+    border: 3px solid #ddd;
+    background-color: #eee;
+    max-width: 800px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+  }
+  h1{
+    padding-left: 300px;
+    padding-bottom: 5%;
+  }
+  .link{
+    color: blue;
+  }
+  body{
+    border: 2px solid black;
+    margin: 50px 50px 50px 50px;
+    padding: 20px;
+  }
+  div{
+ padding-left: 50px;
+ padding-right: 200px;
+ font-size: medium;
+ font-family: 'Times New Roman', Times, serif;
+ font-style: oblique;
+ color: black;
+  }
