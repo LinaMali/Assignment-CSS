@@ -1,0 +1,39 @@
+h1{
+   font-weight: bolder;
+    color: rgb(97, 20, 35);
+    padding-left: 530px;
+}
+form{
+   
+    background-color: rgb(219, 163, 224);
+    border: 2px solid black;
+    border-radius: 20px 30px 20px 30px;
+    align-items: center;
+    width:500px;
+    height: 500px;
+  padding-top: 5%;
+  margin-left: 350px;
+  padding-left: 2%;
+}
+div{
+    color: black;
+   font-size: large;
+   font-weight: 500;
+   font-style: oblique;
+}
+#submit{
+    color:black;
+    background-color: green;
+    font-size: larger;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 160px;
+    padding: 5px 5px 5px 5px;
+    width: 90px;
+    
+
+}
+#submit:hover{
+    background-color: rgb(216, 46, 34);
+    color: black;
+}
