@@ -1,0 +1,48 @@
+h1{
+    padding-left: 400px;
+   }
+   form{
+    border: 2px solid rgb(87, 196, 55);
+    border-radius: 20px 30px 20px 30px;
+    background-image: url('bgimage');
+    background-repeat: no-repeat; 
+    width:400px;
+    height: 450px;
+    padding-left: 2%;
+  padding-top: 3%;
+  margin-top: 2%;
+  margin-left: 350px;
+}
+label{
+color: black;
+font-weight: 500;
+font-size: larger;
+}
+#submit{
+
+background-color: green;
+color: aliceblue;
+text-shadow: 1px 2px 1pc 2px;
+font-size: larger;
+font-weight: 300;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+border-bottom: 3px solid rgb(169, 223, 169);
+height: 35px;
+width: 100px;
+margin-left: 120px;
+margin-top: 10%;
+}
+#submit:hover{
+    background-color: rgb(170, 39, 22);
+color: aliceblue;
+text-shadow: 1px 2px 1pc 2px;
+font-size: larger;
+font-weight: 300;
+font-style: italic;
+border-bottom: 3px solid rgb(230, 108, 108);
+height: 35px;
+width: 100px;
+margin-left: 120px;
+margin-top: 10%;
+}
