@@ -1,0 +1,39 @@
+<!--
+    4)Create CSS for form validation style(eg. for required field or error messages).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>different input type</title>
+    <link rel="stylesheet" href="validaton.css">
+</head>
+<body>
+    <form>
+        <h1>User Information</h1>
+       
+           <label> First Name :  </label> <input type="text" name="fname" required><br /><br />
+           <label>   Last Name : </label> <input type="text" name="lname" required><br /><br />
+          
+            <label>date of birth :  </label> <input type="date" value="dob" required><br /><br />
+           
+          <label>Address :  </label> <textarea name="Address" cols="20" rows="1" required></textarea><br /><br />
+            <label>place : </label><select name="dropdown">
+             <option value="disabled selected">Select State</option>
+             <option value="Andhra Pradesh">Andhra Pradesh</option>
+             <option value=" Arunachal Pradesh">Arunachal Pradesh</option>
+             <option value="Assam">Assam</option>
+             <option value="Bihar">Bihar</option>
+             <option value="Chhattisgarh">Chhattisgarh</option>
+             <option value="Goa">Goa</option>
+             <option value="Gujarat">Gujarat</option>
+             <option value="Haryana">Haryana</option>
+            </select><br><br>
+            <label>  UserId :  </label><input type="text" name="UserId" required><br /><br />
+           <label>   Password :   </label> <input type="password" name="password" required><br /><br /><br>
+        <input type="submit" id="submit" name="submit"value="submit">
+     
+    </form>
+</body>
+</html>
